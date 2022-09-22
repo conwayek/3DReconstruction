@@ -66,7 +66,6 @@ RUN git clone https://github.com/Kai-46/VisSatSatelliteStereo.git
 WORKDIR /tools
 RUN apt-get update && apt-get install -y python3-packaging && pip3 install --upgrade pip
 RUN pip3 install \
-    GDAL==2.2.3 \
     lxml==4.6.3 \
     matplotlib==3.0.0 \
     numba==0.41.0 \
@@ -82,8 +81,12 @@ RUN pip3 install \
     pyzmq==18.1.1 \
     notebook==5.7.15 \
     open3d-python==0.6.0.0 \
-    numpy-groupies \
+    numpy-groupies==0.9.17 
+RUN pip3 install \
+    GDAL==2.2.3 \
     pyproj==2.4.0
+
+RUN pip install -U llvmlite==0.32.1
 
 # remove unneeded files
 #RUN rm -rf /tools
@@ -94,4 +97,3 @@ RUN pip3 install \
 RUN chmod -R 777 /home
 ENV HOME /home
 WORKDIR /home
-
