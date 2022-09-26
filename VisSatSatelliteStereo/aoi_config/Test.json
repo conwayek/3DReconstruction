@@ -1,0 +1,18 @@
+{
+  "dataset_dir": "/scratch/e.conway/3DReconstruction/COLMAP_SAT/FewImages/",
+  "work_dir": "/scratch/e.conway/3DReconstruction/COLMAP_SAT/",
+  "steps_to_run": {
+    "clean_data": true,
+    "crop_image": true,
+    "derive_approx": true,
+    "choose_subset": true,
+    "colmap_sfm_perspective": true,
+    "inspect_sfm_perspective": false,
+    "reparam_depth": true,
+    "colmap_mvs": true,
+    "aggregate_2p5d": true,
+    "aggregate_3d": false
+  },
+  "alt_min": -30.0,
+  "alt_max": 120.0
+}
