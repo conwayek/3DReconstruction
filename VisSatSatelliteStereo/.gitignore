@@ -1,7 +1,0 @@
-.idea/
-__pycache__/
-data_*
-lib/__pycache__/
-*.pyc
-.DS_Store
-multi_rpc_triangule/.DS_Store
