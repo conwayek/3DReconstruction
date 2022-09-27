@@ -36,8 +36,12 @@ from lib.run_cmd import run_cmd
 gpu_index = '-1'
 
 
-def run_photometric_mvs(mvs_dir, window_radius, depth_range=None):
-    cmd = './colmap_bin patch_match_stereo --workspace_path {} \
+def run_photometric_mvs(mvs_dir, env,window_radius,depth_range=None):
+    if(env=='HPC'):
+        cmap_run = './colmap_bin'
+    else:
+        cmap_run = 'colmap'
+    cmd = str(cmap_run)+' patch_match_stereo --workspace_path {} \
                     --PatchMatchStereo.window_radius {}\
                     --PatchMatchStereo.min_triangulation_angle 5.0 \
                     --PatchMatchStereo.filter 0 \
@@ -55,9 +59,13 @@ def run_photometric_mvs(mvs_dir, window_radius, depth_range=None):
     run_cmd(cmd)
 
 
-def run_consistency_check(mvs_dir, window_radius, depth_range=None):
+def run_consistency_check(mvs_dir, env,window_radius, depth_range=None):
     # do forward-backward checking and filtering
-    cmd = './colmap_bin patch_match_stereo --workspace_path {} \
+    if(env=='HPC'):
+        cmap_run = './colmap_bin'
+    else:
+        cmap_run = 'colmap'
+    cmd = str(cmap_run)+' patch_match_stereo --workspace_path {} \
                     --PatchMatchStereo.window_radius {} \
                     --PatchMatchStereo.min_triangulation_angle 5.0 \
                     --PatchMatchStereo.geom_consistency 1 \

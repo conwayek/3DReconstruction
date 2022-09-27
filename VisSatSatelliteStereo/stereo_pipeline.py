@@ -52,7 +52,7 @@ import sys
 from sys import exit
 
 class StereoPipeline(object):
-    def __init__(self, config_file,easting,northing,width,height,hemi,zone,workdir,datadir):
+    def __init__(self, config_file,easting,northing,width,height,hemi,zone,workdir,datadir,env):
         with open(config_file) as fp:
             self.config = json.load(fp)
             
@@ -67,7 +67,7 @@ class StereoPipeline(object):
         
         self.config['work_dir'] = workdir
         self.config['dataset_dir'] = datadir
-
+        self.config['env'] = env
         # make work_dir
         if not os.path.exists(self.config['work_dir']):
             os.mkdir(self.config['work_dir'])
@@ -357,7 +357,7 @@ class StereoPipeline(object):
         os.symlink(os.path.relpath(os.path.join(work_dir, 'colmap/subset_for_sfm/images'), sfm_dir),
                    os.path.join(sfm_dir, 'images'))
         init_camera_file = os.path.join(work_dir, 'colmap/subset_for_sfm/perspective_dict.json')
-        colmap_sfm_perspective.run_sfm(work_dir, sfm_dir, init_camera_file, weight)
+        colmap_sfm_perspective.run_sfm(work_dir, sfm_dir, init_camera_file, weight, self.config)
 
         # stop local timer
         local_timer.mark('Colmap SfM done')
@@ -467,10 +467,10 @@ class StereoPipeline(object):
         local_timer.start()
 
         # first run PMVS without filtering
-        run_photometric_mvs(mvs_dir, window_radius)
+        run_photometric_mvs(mvs_dir, self.config['env'],window_radius)
 
         # next do forward-backward checking and filtering
-        run_consistency_check(mvs_dir, window_radius)
+        run_consistency_check(mvs_dir,self.config['env'],window_radius)
 
         # stop local timer
         local_timer.mark('Colmap MVS done')
@@ -538,9 +538,11 @@ if __name__ == '__main__':
                         help='data dir')
     parser.add_argument('--workdir', type=str,
                         help='working dir')
+    parser.add_argument('--env', type=str,
+                        help='SDE or HPC')
 
     args = parser.parse_args()
 
-    pipeline = StereoPipeline(args.config_file,args.easting,args.northing,args.width,args.height,args.hemi,args.zone,args.workdir,args.datadir)
+    pipeline = StereoPipeline(args.config_file,args.easting,args.northing,args.width,args.height,args.hemi,args.zone,args.workdir,args.datadir,args.env)
 
     pipeline.run()

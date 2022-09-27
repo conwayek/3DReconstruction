@@ -49,13 +49,13 @@ def make_subdirs(sfm_dir):
             os.mkdir(item)
 
 
-def run_sfm(work_dir, sfm_dir, init_camera_file, weight):
+def run_sfm(work_dir, sfm_dir, init_camera_file, weight,config):
     make_subdirs(sfm_dir)
 
     img_dir = os.path.join(sfm_dir, 'images')
     db_file = os.path.join(sfm_dir, 'database.db')
 
-    colmap_sfm_commands.run_sift_matching(img_dir, db_file, camera_model='PERSPECTIVE')
+    colmap_sfm_commands.run_sift_matching(img_dir, db_file, config['env'],camera_model='PERSPECTIVE')
 
     with open(init_camera_file) as fp:
         init_camera_dict = json.load(fp)
@@ -69,11 +69,11 @@ def run_sfm(work_dir, sfm_dir, init_camera_file, weight):
         write_template_perspective(init_camera_dict, init_template)
         tri_dir = os.path.join(sfm_dir, 'tri')
         colmap_sfm_commands.run_point_triangulation(img_dir, db_file, tri_dir, init_template,
-                                                    reproj_err_threshold, reproj_err_threshold, reproj_err_threshold)
+                                                    reproj_err_threshold, reproj_err_threshold, reproj_err_threshold,config['env'])
 
         # global bundle adjustment
         tri_ba_dir = os.path.join(sfm_dir, 'tri_ba')
-        colmap_sfm_commands.run_global_ba(tri_dir, tri_ba_dir, weight)
+        colmap_sfm_commands.run_global_ba(tri_dir, tri_ba_dir, weight,config['env'])
 
         # update camera dict
         init_camera_dict = extract_camera_dict(tri_ba_dir)

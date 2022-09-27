@@ -126,5 +126,5 @@ def main(direct,Nview=10,rangex=2000,rangey=2000):
                 
 if __name__ == '__main__':
     
-    direct = '/scratch/e.conway/3DReconstruction/Jacksonville/Jacksonville_Images'
+    direct = '/3DReconstruction/3DReconstruction/JacksonvilleWV3'
     main(direct,Nview=10,rangex=2000,rangey=2000)

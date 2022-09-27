@@ -37,7 +37,7 @@ from colmap_sfm_utils import create_init_files
 gpu_index = '-1'
 
 
-def run_sift_matching(img_dir, db_file, camera_model):
+def run_sift_matching(img_dir, db_file, env,camera_model):
     assert(camera_model == 'PINHOLE' or camera_model == 'PERSPECTIVE')
 
     if os.path.exists(db_file): # otherwise colmap will skip sift matching
@@ -45,7 +45,11 @@ def run_sift_matching(img_dir, db_file, camera_model):
 
     #--SiftExtraction.domain_size_pooling 1 \
     # feature extraction
-    cmd = './colmap_bin feature_extractor --database_path {} \
+    if(env=='HPC'):
+        cmap_run = './colmap_bin'
+    else:
+        cmap_run = 'colmap'
+    cmd = str(cmap_run)+' feature_extractor --database_path {} \
                                     --image_path {} \
                                     --ImageReader.camera_model {} \
                                     --SiftExtraction.max_image_size 8000  \
@@ -57,7 +61,7 @@ def run_sift_matching(img_dir, db_file, camera_model):
     run_cmd(cmd)
 
     # feature matching
-    cmd = './colmap_bin exhaustive_matcher --database_path {} \
+    cmd = str(cmap_run)+' exhaustive_matcher --database_path {} \
                                             --SiftMatching.guided_matching 1 \
                                             --SiftMatching.num_threads 6 \
                                             --SiftMatching.max_error 3 \
@@ -68,15 +72,19 @@ def run_sift_matching(img_dir, db_file, camera_model):
     run_cmd(cmd)
 
 
-def run_point_triangulation(img_dir, db_file, out_dir, template_file, tri_merge_max_reproj_error, tri_complete_max_reproj_error, filter_max_reproj_error):
+def run_point_triangulation(img_dir, db_file, out_dir, template_file, tri_merge_max_reproj_error, tri_complete_max_reproj_error, filter_max_reproj_error,env):
     if not os.path.exists(out_dir):
         os.mkdir(out_dir)
+    if(env=='HPC'):
+        cmap_run = './colmap_bin'
+    else:
+        cmap_run = 'colmap'
 
     # create initial poses
     create_init_files(db_file, template_file, out_dir)
     
     # triangulate points
-    cmd = './colmap_bin point_triangulator --Mapper.ba_refine_principal_point 1 \
+    cmd = str(cmap_run)+' point_triangulator --Mapper.ba_refine_principal_point 1 \
                                              --database_path {} \
                                              --image_path {} \
                                              --input_path {} \
@@ -102,13 +110,17 @@ def run_point_triangulation(img_dir, db_file, out_dir, template_file, tri_merge_
     run_cmd(cmd)
 
 
-def run_global_ba(in_dir, out_dir, weight):
+def run_global_ba(in_dir, out_dir, weight,env):
     if not os.path.exists(out_dir):
         os.mkdir(out_dir)
+    if(env=='HPC'):
+        cmap_run = './colmap_bin'
+    else:
+        cmap_run = 'colmap'
 
     # global bundle adjustment
     # one meter is roughly three pixels, we should square it
-    cmd = './colmap_bin bundle_adjuster --input_path {in_dir} --output_path {out_dir} \
+    cmd = str(cmap_run)+' bundle_adjuster --input_path {in_dir} --output_path {out_dir} \
                                     --BundleAdjustment.max_num_iterations 5000 \
                                     --BundleAdjustment.refine_focal_length 0\
                                     --BundleAdjustment.refine_principal_point 1 \
