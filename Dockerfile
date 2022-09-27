@@ -48,12 +48,14 @@ RUN cmake .. -DBUILD_TESTING=OFF -DBUILD_EXAMPLES=OFF && make -j8 && make instal
 
 # install colmap
 WORKDIR /tools
-RUN git clone -b 3.7 https://github.com/colmap/colmap && \
-    git clone https://github.com/SBCV/ColmapForVisSatPatched.git
-WORKDIR /tools/colmap
-RUN git checkout 31df46c6c82bbdcaddbca180bc220d2eab9a1b5e
-RUN bash /tools/ColmapForVisSatPatched/apply_patches.sh /tools/colmap
-WORKDIR /tools/colmap/build
+#RUN git clone -b 3.7 https://github.com/colmap/colmap && \
+#    git clone https://github.com/SBCV/ColmapForVisSatPatched.git
+RUN git clone https://github.com/conwayek/3DReconstruction 
+
+WORKDIR /tools/3DReconstruction/COLMAP
+#RUN git checkout 31df46c6c82bbdcaddbca180bc220d2eab9a1b5e
+RUN bash /tools/3DReconstruction/ColmapForVisSatPatched/apply_patches.sh /tools/3DReconstruction/COLMAP
+WORKDIR /tools/3DReconstruction/COLMAP/build
 RUN cmake .. -DGUI_ENABLED=ON -DCUDA_ARCHS=Auto && make -j8 && make install
 
 # VisSat
@@ -61,9 +63,9 @@ ENV CPLUS_INCLUDE_PATH /usr/include/gdal
 ENV C_INCLUDE_PATH /usr/include/gdal
 
 WORKDIR /home
-RUN git clone https://github.com/Kai-46/VisSatSatelliteStereo.git
+#RUN git clone https://github.com/Kai-46/VisSatSatelliteStereo.git
 
-WORKDIR /tools
+WORKDIR /tools/3DReconstruction/VisSatSatelliteStereo
 RUN apt-get update && apt-get install -y python3-packaging && pip3 install --upgrade pip
 RUN pip3 install \
     lxml==4.6.3 \
@@ -81,10 +83,13 @@ RUN pip3 install \
     pyzmq==18.1.1 \
     notebook==5.7.15 \
     open3d-python==0.6.0.0 \
-    numpy-groupies==0.9.17 
+    numpy-groupies==0.9.17\
+    rasterio 
 RUN pip3 install \
     GDAL==2.2.3 \
     pyproj==2.4.0
+RUN pip3 install \
+    geopy
 
 RUN pip install -U llvmlite==0.32.1
 
