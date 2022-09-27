@@ -1,0 +1,1758 @@
+The system is: Linux - 3.10.0-1160.25.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /shared/centos7/gcc/10.1.0/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/e.conway/HomeModules/colmap/CMakeFiles/3.23.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /shared/centos7/gcc/10.1.0/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/e.conway/HomeModules/colmap/CMakeFiles/3.23.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ce0a4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ce0a4.dir/build.make CMakeFiles/cmTC_ce0a4.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o
+/shared/centos7/gcc/10.1.0/bin/gcc   -v -o CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1 -quiet -v /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccT8Yw96.s
+GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"
+ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /shared/centos7/cuda/11.4/include
+ /shared/centos7/anaconda3/2022.01/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu
+ /usr/local/include
+ /shared/centos7/gcc/10.1.0/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 461baa9143de53ce1ab0d8a46e63caca
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o /tmp/ccT8Yw96.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_ce0a4
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce0a4.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/gcc  -v -rdynamic CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o -o cmTC_ce0a4 
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc
+COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ce0a4' '-mtune=generic' '-march=x86-64'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHF0nCZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ce0a4 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ce0a4' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/shared/centos7/cuda/11.4/include]
+    add: [/shared/centos7/anaconda3/2022.01/include]
+    add: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+    add: [/shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+    add: [/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+    add: [/usr/local/include]
+    add: [/shared/centos7/gcc/10.1.0/include]
+    add: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/shared/centos7/cuda/11.4/include] ==> [/shared/centos7/cuda/11.4/include]
+  collapse include dir [/shared/centos7/anaconda3/2022.01/include] ==> [/shared/centos7/anaconda3/2022.01/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/include/c++/10.1.0] ==> [/shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+  collapse include dir [/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu] ==> [/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/include] ==> [/shared/centos7/gcc/10.1.0/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/shared/centos7/cuda/11.4/include;/shared/centos7/anaconda3/2022.01/include;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include;/shared/centos7/gcc/10.1.0/include/c++/10.1.0;/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu;/usr/local/include;/shared/centos7/gcc/10.1.0/include;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ce0a4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ce0a4.dir/build.make CMakeFiles/cmTC_ce0a4.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/gcc   -v -o CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1 -quiet -v /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccT8Yw96.s]
+  ignore line: [GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"]
+  ignore line: [ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /shared/centos7/cuda/11.4/include]
+  ignore line: [ /shared/centos7/anaconda3/2022.01/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 461baa9143de53ce1ab0d8a46e63caca]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o /tmp/ccT8Yw96.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_ce0a4]
+  ignore line: [/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce0a4.dir/link.txt --verbose=1]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/gcc  -v -rdynamic CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o -o cmTC_ce0a4 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ce0a4' '-mtune=generic' '-march=x86-64']
+  link line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHF0nCZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ce0a4 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHF0nCZ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ce0a4] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o] ==> obj [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/shared/centos7/cuda/11.4/lib64] ==> dir [/shared/centos7/cuda/11.4/lib64]
+    arg [-L/shared/centos7/anaconda3/2022.01/lib] ==> dir [/shared/centos7/anaconda3/2022.01/lib]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..]
+    arg [CMakeFiles/cmTC_ce0a4.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o] ==> obj [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> [/shared/centos7/gcc/10.1.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/shared/centos7/cuda/11.4/lib64] ==> [/shared/centos7/cuda/11.4/lib64]
+  collapse library dir [/shared/centos7/anaconda3/2022.01/lib] ==> [/shared/centos7/anaconda3/2022.01/lib]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> [/shared/centos7/gcc/10.1.0/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0;/shared/centos7/gcc/10.1.0/lib64;/lib64;/usr/lib64;/shared/centos7/cuda/11.4/lib64;/shared/centos7/anaconda3/2022.01/lib;/shared/centos7/gcc/10.1.0/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_77b9e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_77b9e.dir/build.make CMakeFiles/cmTC_77b9e.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o
+/shared/centos7/gcc/10.1.0/bin/g++   -v -o CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1plus -quiet -v -D_GNU_SOURCE /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccp8NbVj.s
+GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0"
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/x86_64-pc-linux-gnu"
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"
+ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /shared/centos7/cuda/11.4/include
+ /shared/centos7/anaconda3/2022.01/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward
+ /usr/local/include
+ /shared/centos7/gcc/10.1.0/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bb605547f98e55cb66a8aeb13f1d7bca
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccp8NbVj.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_77b9e
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77b9e.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/g++  -v -rdynamic CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_77b9e 
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++
+COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_77b9e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc07jpno.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_77b9e /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_77b9e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/shared/centos7/cuda/11.4/include]
+    add: [/shared/centos7/anaconda3/2022.01/include]
+    add: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+    add: [/shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+    add: [/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+    add: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward]
+    add: [/usr/local/include]
+    add: [/shared/centos7/gcc/10.1.0/include]
+    add: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/shared/centos7/cuda/11.4/include] ==> [/shared/centos7/cuda/11.4/include]
+  collapse include dir [/shared/centos7/anaconda3/2022.01/include] ==> [/shared/centos7/anaconda3/2022.01/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/include/c++/10.1.0] ==> [/shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+  collapse include dir [/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu] ==> [/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+  collapse include dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward] ==> [/shared/centos7/gcc/10.1.0/include/c++/10.1.0/backward]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/include] ==> [/shared/centos7/gcc/10.1.0/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/shared/centos7/cuda/11.4/include;/shared/centos7/anaconda3/2022.01/include;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include;/shared/centos7/gcc/10.1.0/include/c++/10.1.0;/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu;/shared/centos7/gcc/10.1.0/include/c++/10.1.0/backward;/usr/local/include;/shared/centos7/gcc/10.1.0/include;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_77b9e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_77b9e.dir/build.make CMakeFiles/cmTC_77b9e.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/g++   -v -o CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1plus -quiet -v -D_GNU_SOURCE /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccp8NbVj.s]
+  ignore line: [GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0"]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/x86_64-pc-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"]
+  ignore line: [ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /shared/centos7/cuda/11.4/include]
+  ignore line: [ /shared/centos7/anaconda3/2022.01/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bb605547f98e55cb66a8aeb13f1d7bca]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccp8NbVj.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_77b9e]
+  ignore line: [/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77b9e.dir/link.txt --verbose=1]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/g++  -v -rdynamic CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_77b9e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_77b9e' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc07jpno.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_77b9e /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc07jpno.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_77b9e] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o] ==> obj [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/shared/centos7/cuda/11.4/lib64] ==> dir [/shared/centos7/cuda/11.4/lib64]
+    arg [-L/shared/centos7/anaconda3/2022.01/lib] ==> dir [/shared/centos7/anaconda3/2022.01/lib]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..]
+    arg [CMakeFiles/cmTC_77b9e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o] ==> obj [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> [/shared/centos7/gcc/10.1.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/shared/centos7/cuda/11.4/lib64] ==> [/shared/centos7/cuda/11.4/lib64]
+  collapse library dir [/shared/centos7/anaconda3/2022.01/lib] ==> [/shared/centos7/anaconda3/2022.01/lib]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> [/shared/centos7/gcc/10.1.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0;/shared/centos7/gcc/10.1.0/lib64;/lib64;/usr/lib64;/shared/centos7/cuda/11.4/lib64;/shared/centos7/anaconda3/2022.01/lib;/shared/centos7/gcc/10.1.0/lib]
+  implicit fwks: []
+
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1551b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1551b.dir/build.make CMakeFiles/cmTC_1551b.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o
+/shared/centos7/gcc/10.1.0/bin/gcc   -fopenmp -v -o CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o -c /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1 -quiet -v -D_REENTRANT /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/cc5tiY3M.s
+GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"
+ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /shared/centos7/cuda/11.4/include
+ /shared/centos7/anaconda3/2022.01/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu
+ /usr/local/include
+ /shared/centos7/gcc/10.1.0/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 461baa9143de53ce1ab0d8a46e63caca
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o /tmp/cc5tiY3M.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking C executable cmTC_1551b
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1551b.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/gcc  -fopenmp -v -rdynamic CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o -o cmTC_1551b  -v 
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc
+COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+Reading specs from /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_1551b' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8vAuER.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1551b /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_1551b' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1551b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1551b.dir/build.make CMakeFiles/cmTC_1551b.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/gcc   -fopenmp -v -o CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o -c /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1 -quiet -v -D_REENTRANT /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/cc5tiY3M.s]
+  ignore line: [GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"]
+  ignore line: [ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /shared/centos7/cuda/11.4/include]
+  ignore line: [ /shared/centos7/anaconda3/2022.01/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 461baa9143de53ce1ab0d8a46e63caca]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o /tmp/cc5tiY3M.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking C executable cmTC_1551b]
+  ignore line: [/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1551b.dir/link.txt --verbose=1]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/gcc  -fopenmp -v -rdynamic CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o -o cmTC_1551b  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_1551b' '-v' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8vAuER.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1551b /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8vAuER.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1551b] ==> ignore
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/shared/centos7/cuda/11.4/lib64] ==> dir [/shared/centos7/cuda/11.4/lib64]
+    arg [-L/shared/centos7/anaconda3/2022.01/lib] ==> dir [/shared/centos7/anaconda3/2022.01/lib]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..]
+    arg [CMakeFiles/cmTC_1551b.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> [/shared/centos7/gcc/10.1.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/shared/centos7/cuda/11.4/lib64] ==> [/shared/centos7/cuda/11.4/lib64]
+  collapse library dir [/shared/centos7/anaconda3/2022.01/lib] ==> [/shared/centos7/anaconda3/2022.01/lib]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> [/shared/centos7/gcc/10.1.0/lib]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit objs: []
+  implicit dirs: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0;/shared/centos7/gcc/10.1.0/lib64;/lib64;/usr/lib64;/shared/centos7/cuda/11.4/lib64;/shared/centos7/anaconda3/2022.01/lib;/shared/centos7/gcc/10.1.0/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18088/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18088.dir/build.make CMakeFiles/cmTC_18088.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o
+/shared/centos7/gcc/10.1.0/bin/g++   -fopenmp -v -o CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o -c /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o -version -fopenmp -o /tmp/ccmuzxbc.s
+GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0"
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/x86_64-pc-linux-gnu"
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"
+ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /shared/centos7/cuda/11.4/include
+ /shared/centos7/anaconda3/2022.01/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward
+ /usr/local/include
+ /shared/centos7/gcc/10.1.0/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bb605547f98e55cb66a8aeb13f1d7bca
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o /tmp/ccmuzxbc.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_18088
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18088.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/g++  -fopenmp -v -rdynamic CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o -o cmTC_18088  -v 
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++
+COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+Reading specs from /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_18088' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc356rU7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_18088 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_18088' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18088/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18088.dir/build.make CMakeFiles/cmTC_18088.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/g++   -fopenmp -v -o CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o -c /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o -version -fopenmp -o /tmp/ccmuzxbc.s]
+  ignore line: [GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0"]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/x86_64-pc-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"]
+  ignore line: [ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /shared/centos7/cuda/11.4/include]
+  ignore line: [ /shared/centos7/anaconda3/2022.01/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bb605547f98e55cb66a8aeb13f1d7bca]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o /tmp/ccmuzxbc.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_18088]
+  ignore line: [/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18088.dir/link.txt --verbose=1]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/g++  -fopenmp -v -rdynamic CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o -o cmTC_18088  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_18088' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc356rU7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_18088 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc356rU7.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_18088] ==> ignore
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/shared/centos7/cuda/11.4/lib64] ==> dir [/shared/centos7/cuda/11.4/lib64]
+    arg [-L/shared/centos7/anaconda3/2022.01/lib] ==> dir [/shared/centos7/anaconda3/2022.01/lib]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..]
+    arg [CMakeFiles/cmTC_18088.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> [/shared/centos7/gcc/10.1.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/shared/centos7/cuda/11.4/lib64] ==> [/shared/centos7/cuda/11.4/lib64]
+  collapse library dir [/shared/centos7/anaconda3/2022.01/lib] ==> [/shared/centos7/anaconda3/2022.01/lib]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> [/shared/centos7/gcc/10.1.0/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit objs: []
+  implicit dirs: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0;/shared/centos7/gcc/10.1.0/lib64;/lib64;/usr/lib64;/shared/centos7/cuda/11.4/lib64;/shared/centos7/anaconda3/2022.01/lib;/shared/centos7/gcc/10.1.0/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_464fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_464fc.dir/build.make CMakeFiles/cmTC_464fc.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_464fc.dir/CheckIncludeFile.c.o
+/shared/centos7/gcc/10.1.0/bin/gcc    -o CMakeFiles/cmTC_464fc.dir/CheckIncludeFile.c.o -c /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_464fc
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_464fc.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/gcc -rdynamic CMakeFiles/cmTC_464fc.dir/CheckIncludeFile.c.o -o cmTC_464fc 
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9ea25/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ea25.dir/build.make CMakeFiles/cmTC_9ea25.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ea25.dir/CheckFunctionExists.c.o
+/shared/centos7/gcc/10.1.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_9ea25.dir/CheckFunctionExists.c.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9ea25
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ea25.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_9ea25.dir/CheckFunctionExists.c.o -o cmTC_9ea25  -lpthread 
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a8b74/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a8b74.dir/build.make CMakeFiles/cmTC_a8b74.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8b74.dir/CheckFunctionExists.c.o
+/shared/centos7/gcc/10.1.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_a8b74.dir/CheckFunctionExists.c.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a8b74
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8b74.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_a8b74.dir/CheckFunctionExists.c.o -o cmTC_a8b74  -Wl,-rpath,/shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libmkl_intel_lp64.so /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libmkl_intel_thread.so /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libmkl_core.so /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libiomp5.so -lpthread -lm -ldl 
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_90e0f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_90e0f.dir/build.make CMakeFiles/cmTC_90e0f.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90e0f.dir/CheckFunctionExists.c.o
+/shared/centos7/gcc/10.1.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_90e0f.dir/CheckFunctionExists.c.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_90e0f
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90e0f.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_90e0f.dir/CheckFunctionExists.c.o -o cmTC_90e0f  -Wl,-rpath,/shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libmkl_intel_lp64.so /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libmkl_intel_thread.so /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libmkl_core.so /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libiomp5.so -lpthread -lm -ldl -lpthread -lm -ldl 
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function shm_open exists in the rt passed with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2f354/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2f354.dir/build.make CMakeFiles/cmTC_2f354.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f354.dir/CheckFunctionExists.c.o
+/shared/centos7/gcc/10.1.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=shm_open -o CMakeFiles/cmTC_2f354.dir/CheckFunctionExists.c.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2f354
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f354.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=shm_open -rdynamic CMakeFiles/cmTC_2f354.dir/CheckFunctionExists.c.o -o cmTC_2f354  -lrt 
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+The system is: Linux - 3.10.0-1160.25.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /shared/centos7/gcc/10.1.0/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/e.conway/HomeModules/colmap/CMakeFiles/3.23.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /shared/centos7/gcc/10.1.0/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/e.conway/HomeModules/colmap/CMakeFiles/3.23.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_00d4f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_00d4f.dir/build.make CMakeFiles/cmTC_00d4f.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o
+/shared/centos7/gcc/10.1.0/bin/gcc   -v -o CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1 -quiet -v /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccLQH5Kq.s
+GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"
+ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /shared/centos7/cuda/11.4/include
+ /shared/centos7/anaconda3/2022.01/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu
+ /usr/local/include
+ /shared/centos7/gcc/10.1.0/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 461baa9143de53ce1ab0d8a46e63caca
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o /tmp/ccLQH5Kq.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_00d4f
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00d4f.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/gcc  -v -rdynamic CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o -o cmTC_00d4f 
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc
+COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_00d4f' '-mtune=generic' '-march=x86-64'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4ViDdy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_00d4f /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_00d4f' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/shared/centos7/cuda/11.4/include]
+    add: [/shared/centos7/anaconda3/2022.01/include]
+    add: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+    add: [/shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+    add: [/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+    add: [/usr/local/include]
+    add: [/shared/centos7/gcc/10.1.0/include]
+    add: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/shared/centos7/cuda/11.4/include] ==> [/shared/centos7/cuda/11.4/include]
+  collapse include dir [/shared/centos7/anaconda3/2022.01/include] ==> [/shared/centos7/anaconda3/2022.01/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/include/c++/10.1.0] ==> [/shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+  collapse include dir [/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu] ==> [/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/include] ==> [/shared/centos7/gcc/10.1.0/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/shared/centos7/cuda/11.4/include;/shared/centos7/anaconda3/2022.01/include;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include;/shared/centos7/gcc/10.1.0/include/c++/10.1.0;/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu;/usr/local/include;/shared/centos7/gcc/10.1.0/include;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_00d4f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_00d4f.dir/build.make CMakeFiles/cmTC_00d4f.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/gcc   -v -o CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1 -quiet -v /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccLQH5Kq.s]
+  ignore line: [GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"]
+  ignore line: [ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /shared/centos7/cuda/11.4/include]
+  ignore line: [ /shared/centos7/anaconda3/2022.01/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 461baa9143de53ce1ab0d8a46e63caca]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o /tmp/ccLQH5Kq.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_00d4f]
+  ignore line: [/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00d4f.dir/link.txt --verbose=1]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/gcc  -v -rdynamic CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o -o cmTC_00d4f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_00d4f' '-mtune=generic' '-march=x86-64']
+  link line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4ViDdy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_00d4f /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4ViDdy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_00d4f] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o] ==> obj [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/shared/centos7/cuda/11.4/lib64] ==> dir [/shared/centos7/cuda/11.4/lib64]
+    arg [-L/shared/centos7/anaconda3/2022.01/lib] ==> dir [/shared/centos7/anaconda3/2022.01/lib]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..]
+    arg [CMakeFiles/cmTC_00d4f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o] ==> obj [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> [/shared/centos7/gcc/10.1.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/shared/centos7/cuda/11.4/lib64] ==> [/shared/centos7/cuda/11.4/lib64]
+  collapse library dir [/shared/centos7/anaconda3/2022.01/lib] ==> [/shared/centos7/anaconda3/2022.01/lib]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> [/shared/centos7/gcc/10.1.0/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0;/shared/centos7/gcc/10.1.0/lib64;/lib64;/usr/lib64;/shared/centos7/cuda/11.4/lib64;/shared/centos7/anaconda3/2022.01/lib;/shared/centos7/gcc/10.1.0/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d691d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d691d.dir/build.make CMakeFiles/cmTC_d691d.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o
+/shared/centos7/gcc/10.1.0/bin/g++   -v -o CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1plus -quiet -v -D_GNU_SOURCE /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cc9rxlGQ.s
+GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0"
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/x86_64-pc-linux-gnu"
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"
+ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /shared/centos7/cuda/11.4/include
+ /shared/centos7/anaconda3/2022.01/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward
+ /usr/local/include
+ /shared/centos7/gcc/10.1.0/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bb605547f98e55cb66a8aeb13f1d7bca
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc9rxlGQ.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_d691d
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d691d.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/g++  -v -rdynamic CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d691d 
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++
+COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d691d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxqo1TY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d691d /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d691d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/shared/centos7/cuda/11.4/include]
+    add: [/shared/centos7/anaconda3/2022.01/include]
+    add: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+    add: [/shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+    add: [/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+    add: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward]
+    add: [/usr/local/include]
+    add: [/shared/centos7/gcc/10.1.0/include]
+    add: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/shared/centos7/cuda/11.4/include] ==> [/shared/centos7/cuda/11.4/include]
+  collapse include dir [/shared/centos7/anaconda3/2022.01/include] ==> [/shared/centos7/anaconda3/2022.01/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/include/c++/10.1.0] ==> [/shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+  collapse include dir [/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu] ==> [/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+  collapse include dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward] ==> [/shared/centos7/gcc/10.1.0/include/c++/10.1.0/backward]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/include] ==> [/shared/centos7/gcc/10.1.0/include]
+  collapse include dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/shared/centos7/cuda/11.4/include;/shared/centos7/anaconda3/2022.01/include;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include;/shared/centos7/gcc/10.1.0/include/c++/10.1.0;/shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu;/shared/centos7/gcc/10.1.0/include/c++/10.1.0/backward;/usr/local/include;/shared/centos7/gcc/10.1.0/include;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d691d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d691d.dir/build.make CMakeFiles/cmTC_d691d.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/g++   -v -o CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1plus -quiet -v -D_GNU_SOURCE /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cc9rxlGQ.s]
+  ignore line: [GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0"]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/x86_64-pc-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"]
+  ignore line: [ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /shared/centos7/cuda/11.4/include]
+  ignore line: [ /shared/centos7/anaconda3/2022.01/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bb605547f98e55cb66a8aeb13f1d7bca]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc9rxlGQ.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_d691d]
+  ignore line: [/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d691d.dir/link.txt --verbose=1]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/g++  -v -rdynamic CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d691d ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d691d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxqo1TY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d691d /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxqo1TY.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d691d] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o] ==> obj [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/shared/centos7/cuda/11.4/lib64] ==> dir [/shared/centos7/cuda/11.4/lib64]
+    arg [-L/shared/centos7/anaconda3/2022.01/lib] ==> dir [/shared/centos7/anaconda3/2022.01/lib]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..]
+    arg [CMakeFiles/cmTC_d691d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o] ==> obj [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> [/shared/centos7/gcc/10.1.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/shared/centos7/cuda/11.4/lib64] ==> [/shared/centos7/cuda/11.4/lib64]
+  collapse library dir [/shared/centos7/anaconda3/2022.01/lib] ==> [/shared/centos7/anaconda3/2022.01/lib]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> [/shared/centos7/gcc/10.1.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o;/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0;/shared/centos7/gcc/10.1.0/lib64;/lib64;/usr/lib64;/shared/centos7/cuda/11.4/lib64;/shared/centos7/anaconda3/2022.01/lib;/shared/centos7/gcc/10.1.0/lib]
+  implicit fwks: []
+
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a448/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a448.dir/build.make CMakeFiles/cmTC_7a448.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o
+/shared/centos7/gcc/10.1.0/bin/gcc   -fopenmp -v -o CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o -c /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1 -quiet -v -D_REENTRANT /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/ccXbzW7b.s
+GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"
+ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /shared/centos7/cuda/11.4/include
+ /shared/centos7/anaconda3/2022.01/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu
+ /usr/local/include
+ /shared/centos7/gcc/10.1.0/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 461baa9143de53ce1ab0d8a46e63caca
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o /tmp/ccXbzW7b.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking C executable cmTC_7a448
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a448.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/gcc  -fopenmp -v -rdynamic CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o -o cmTC_7a448  -v 
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc
+COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+Reading specs from /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_7a448' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfrzoyk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7a448 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_7a448' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a448/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a448.dir/build.make CMakeFiles/cmTC_7a448.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/gcc   -fopenmp -v -o CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o -c /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1 -quiet -v -D_REENTRANT /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/ccXbzW7b.s]
+  ignore line: [GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"]
+  ignore line: [ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /shared/centos7/cuda/11.4/include]
+  ignore line: [ /shared/centos7/anaconda3/2022.01/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 461baa9143de53ce1ab0d8a46e63caca]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o /tmp/ccXbzW7b.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking C executable cmTC_7a448]
+  ignore line: [/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a448.dir/link.txt --verbose=1]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/gcc  -fopenmp -v -rdynamic CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o -o cmTC_7a448  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_7a448' '-v' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfrzoyk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7a448 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfrzoyk.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7a448] ==> ignore
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/shared/centos7/cuda/11.4/lib64] ==> dir [/shared/centos7/cuda/11.4/lib64]
+    arg [-L/shared/centos7/anaconda3/2022.01/lib] ==> dir [/shared/centos7/anaconda3/2022.01/lib]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..]
+    arg [CMakeFiles/cmTC_7a448.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> [/shared/centos7/gcc/10.1.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/shared/centos7/cuda/11.4/lib64] ==> [/shared/centos7/cuda/11.4/lib64]
+  collapse library dir [/shared/centos7/anaconda3/2022.01/lib] ==> [/shared/centos7/anaconda3/2022.01/lib]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> [/shared/centos7/gcc/10.1.0/lib]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit objs: []
+  implicit dirs: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0;/shared/centos7/gcc/10.1.0/lib64;/lib64;/usr/lib64;/shared/centos7/cuda/11.4/lib64;/shared/centos7/anaconda3/2022.01/lib;/shared/centos7/gcc/10.1.0/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_93320/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_93320.dir/build.make CMakeFiles/cmTC_93320.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o
+/shared/centos7/gcc/10.1.0/bin/g++   -fopenmp -v -o CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o -c /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o -version -fopenmp -o /tmp/cchDlZGA.s
+GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0"
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/x86_64-pc-linux-gnu"
+ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"
+ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /shared/centos7/cuda/11.4/include
+ /shared/centos7/anaconda3/2022.01/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0
+ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward
+ /usr/local/include
+ /shared/centos7/gcc/10.1.0/include
+ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bb605547f98e55cb66a8aeb13f1d7bca
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o /tmp/cchDlZGA.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_93320
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93320.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/g++  -fopenmp -v -rdynamic CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o -o cmTC_93320  -v 
+Using built-in specs.
+COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++
+COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.1.0 (GCC) 
+COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+Reading specs from /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_93320' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1Y4BmI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_93320 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_93320' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_93320/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_93320.dir/build.make CMakeFiles/cmTC_93320.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/g++   -fopenmp -v -o CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o -c /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/e.conway/HomeModules/colmap/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o -version -fopenmp -o /tmp/cchDlZGA.s]
+  ignore line: [GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0"]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/x86_64-pc-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"]
+  ignore line: [ignoring nonexistent directory "/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /shared/centos7/cuda/11.4/include]
+  ignore line: [ /shared/centos7/anaconda3/2022.01/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include/c++/10.1.0/x86_64-pc-linux-gnu]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/include]
+  ignore line: [ /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 10.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bb605547f98e55cb66a8aeb13f1d7bca]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o /tmp/cchDlZGA.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_93320]
+  ignore line: [/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93320.dir/link.txt --verbose=1]
+  ignore line: [/shared/centos7/gcc/10.1.0/bin/g++  -fopenmp -v -rdynamic CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o -o cmTC_93320  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/shared/centos7/gcc/10.1.0/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-10.1.0/configure --prefix=/shared/centos7/gcc/10.1.0 --enable-checking=release --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/shared/centos7/cuda/11.4/lib64/:/shared/centos7/anaconda3/2022.01/lib/:/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_93320' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2 -plugin /shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so -plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1Y4BmI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_93320 /lib/../lib64/crt1.o /lib/../lib64/crti.o /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtbegin.o -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0 -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/shared/centos7/cuda/11.4/lib64 -L/shared/centos7/anaconda3/2022.01/lib -L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../.. CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/shared/centos7/gcc/10.1.0/libexec/gcc/x86_64-pc-linux-gnu/10.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1Y4BmI.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_93320] ==> ignore
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/shared/centos7/cuda/11.4/lib64] ==> dir [/shared/centos7/cuda/11.4/lib64]
+    arg [-L/shared/centos7/anaconda3/2022.01/lib] ==> dir [/shared/centos7/anaconda3/2022.01/lib]
+    arg [-L/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..]
+    arg [CMakeFiles/cmTC_93320.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0] ==> [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib64] ==> [/shared/centos7/gcc/10.1.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/shared/centos7/cuda/11.4/lib64] ==> [/shared/centos7/cuda/11.4/lib64]
+  collapse library dir [/shared/centos7/anaconda3/2022.01/lib] ==> [/shared/centos7/anaconda3/2022.01/lib]
+  collapse library dir [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../..] ==> [/shared/centos7/gcc/10.1.0/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit objs: []
+  implicit dirs: [/shared/centos7/gcc/10.1.0/lib/gcc/x86_64-pc-linux-gnu/10.1.0;/shared/centos7/gcc/10.1.0/lib64;/lib64;/usr/lib64;/shared/centos7/cuda/11.4/lib64;/shared/centos7/anaconda3/2022.01/lib;/shared/centos7/gcc/10.1.0/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_95d39/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95d39.dir/build.make CMakeFiles/cmTC_95d39.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95d39.dir/CheckIncludeFile.c.o
+/shared/centos7/gcc/10.1.0/bin/gcc    -o CMakeFiles/cmTC_95d39.dir/CheckIncludeFile.c.o -c /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_95d39
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95d39.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/gcc -rdynamic CMakeFiles/cmTC_95d39.dir/CheckIncludeFile.c.o -o cmTC_95d39 
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2c573/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2c573.dir/build.make CMakeFiles/cmTC_2c573.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c573.dir/CheckFunctionExists.c.o
+/shared/centos7/gcc/10.1.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_2c573.dir/CheckFunctionExists.c.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2c573
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c573.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_2c573.dir/CheckFunctionExists.c.o -o cmTC_2c573  -lpthread 
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_26400/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_26400.dir/build.make CMakeFiles/cmTC_26400.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26400.dir/CheckFunctionExists.c.o
+/shared/centos7/gcc/10.1.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_26400.dir/CheckFunctionExists.c.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_26400
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26400.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_26400.dir/CheckFunctionExists.c.o -o cmTC_26400  -Wl,-rpath,/shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libmkl_intel_lp64.so /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libmkl_intel_thread.so /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libmkl_core.so /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libiomp5.so -lpthread -lm -ldl 
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_83871/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83871.dir/build.make CMakeFiles/cmTC_83871.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83871.dir/CheckFunctionExists.c.o
+/shared/centos7/gcc/10.1.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_83871.dir/CheckFunctionExists.c.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_83871
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83871.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_83871.dir/CheckFunctionExists.c.o -o cmTC_83871  -Wl,-rpath,/shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libmkl_intel_lp64.so /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libmkl_intel_thread.so /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libmkl_core.so /shared/centos7/intel/parallel_studio_xe_2020_update2_cluster_edition/c6420/intelpython3/lib/libiomp5.so -lpthread -lm -ldl -lpthread -lm -ldl 
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function shm_open exists in the rt passed with the following output:
+Change Dir: /home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_64632/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_64632.dir/build.make CMakeFiles/cmTC_64632.dir/build
+gmake[1]: Entering directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64632.dir/CheckFunctionExists.c.o
+/shared/centos7/gcc/10.1.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=shm_open -o CMakeFiles/cmTC_64632.dir/CheckFunctionExists.c.o -c /home/e.conway/.conda/envs/visatgpu/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_64632
+/home/e.conway/.conda/envs/visatgpu/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64632.dir/link.txt --verbose=1
+/shared/centos7/gcc/10.1.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=shm_open -rdynamic CMakeFiles/cmTC_64632.dir/CheckFunctionExists.c.o -o cmTC_64632  -lrt 
+gmake[1]: Leaving directory `/home/e.conway/HomeModules/colmap/CMakeFiles/CMakeTmp'
+
+
+

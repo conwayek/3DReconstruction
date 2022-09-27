@@ -1,0 +1,27 @@
+#!bin/bash
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/01MAY15WV031200015MAY01160357-P1BS-500648062030_01_P001_________AAE_0AAAAABPABQ0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/01NOV15WV031100015NOV01161954-P1BS-500648062080_01_P001_________AAE_0AAAAABPABS0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/01NOV15WV031100015NOV01162034-P1BS-500648061060_01_P001_________AAE_0AAAAABPABE0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/02MAY15WV031100015MAY02161943-P1BS-500648061030_01_P001_________AAE_0AAAAABPABR0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/05JUL15WV031100015JUL05162954-P1BS-500648062020_01_P001_________AAE_0AAAAABPABQ0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/05OCT14WV031100014OCT05160138-P1BS-500648062040_01_P001_________AAE_0AAAAABPABL0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/05OCT14WV031100014OCT05160149-P1BS-500648061080_01_P001_________AAE_0AAAAABPABL0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/11FEB16WV031100016FEB11163042-P1BS-501504472070_01_P001_________AAE_0AAAAABPABP0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/11OCT14WV031100014OCT11155720-P1BS-500648061020_01_P001_________AAE_0AAAAABPABR0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/14DEC14WV031100014DEC14160402-P1BS-500648062060_01_P001_________AAE_0AAAAABPABS0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/14MAY15WV031200015MAY14160906-P1BS-501504473050_01_P001_________AAE_0AAAAABPABS0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/15FEB15WV031200015FEB15161208-P1BS-500648061070_01_P001_________AAE_0AAAAABPABP0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/15JUN15WV031100015JUN15161248-P1BS-500648061100_01_P001_________AAE_0AAAAABPABS0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/18FEB16WV031200016FEB18164007-P1BS-501504472090_01_P001_________AAE_0AAAAABPABP0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/18OCT14WV031100014OCT18160722-P1BS-500648062090_01_P001_________AAE_0AAAAABPABS0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/19APR15WV031100015APR19161439-P1BS-501504474050_01_P001_________AAE_0AAAAABPABP0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/21DEC15WV031200015DEC21161108-P1BS-501504473080_01_P001_________AAE_0AAAAABPABG0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/21JAN15WV031100015JAN21161243-P1BS-500648061050_01_P001_________AAE_0AAAAABPABS0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/21JAN15WV031100015JAN21161253-P1BS-500648062050_01_P001_________AAE_0AAAAABPABO0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/21JAN15WV031100015JAN21161308-P1BS-501504474040_01_P001_________AAE_0AAAAABPABJ0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/21MAY15WV031200015MAY21161849-P1BS-500648061010_01_P001_________AAE_0AAAAABPABT0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/25SEP15WV031100015SEP25163525-P1BS-501504473070_01_P001_________AAE_0AAAAABPABF0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/26APR15WV031200015APR26162435-P1BS-501504472050_01_P001_________AAE_0AAAAABPABR0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/27DEC14WV031100014DEC27161109-P1BS-500648062070_01_P001_________AAE_0AAAAABPABS0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/27JAN15WV031100015JAN27160845-P1BS-500648062010_01_P001_________AAE_0AAAAABPABS0_lv1.tif .
+~/.local/bin/aws s3 cp s3://spacenet-dataset/Hosted-Datasets/CORE3D-Public-Data/Satellite-Images/Jacksonville/WV3/PAN/30OCT14WV031100014OCT30155732-P1BS-500648061040_01_P001_________AAE_0AAAAABPABS0_lv1.tif .
