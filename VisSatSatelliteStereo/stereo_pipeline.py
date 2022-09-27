@@ -35,6 +35,7 @@ import json
 from clean_data import clean_data
 from image_crop import image_crop
 from camera_approx import CameraApprox
+import numpy as np
 import colmap_sfm_perspective
 import shutil
 import logging
@@ -51,19 +52,21 @@ import sys
 from sys import exit
 
 class StereoPipeline(object):
-    def __init__(self, config_file,easting,northing,width,height,hemi,zone):
+    def __init__(self, config_file,easting,northing,width,height,hemi,zone,workdir,datadir):
         with open(config_file) as fp:
             self.config = json.load(fp)
             
         # append json file
+        easting = np.float64(easting) 
+        northing = np.float64(northing) 
+        width = np.float64(width)
+        height = np.float64(height)
+        zone = int(zone)
         
-        print(self.config['dataset_dir'])
+        self.config['bounding_box'] = {'ul_easting':easting, 'ul_northing':northing, 'width':width,'height':height,'zone_number':zone,'hemisphere':hemi}
         
-        self.config['bounding_box'] = {'easting':easting, 'northing':northing, 'width':width,'height':height,'zone_number':zone,'hemisphere':hemi}
-        
-        print(self.config)
-        
-        exit()
+        self.config['work_dir'] = workdir
+        self.config['dataset_dir'] = datadir
 
         # make work_dir
         if not os.path.exists(self.config['work_dir']):
@@ -198,6 +201,8 @@ class StereoPipeline(object):
         hemisphere = bbx_utm['hemisphere']
         ul_easting = bbx_utm['ul_easting']
         ul_northing = bbx_utm['ul_northing']
+
+
         lr_easting = ul_easting + bbx_utm['width']
         lr_northing = ul_northing - bbx_utm['height']
 
@@ -529,9 +534,13 @@ if __name__ == '__main__':
                         help='hemisphere')
     parser.add_argument('--zone', type=str,
                         help='utm zone')
+    parser.add_argument('--datadir', type=str,
+                        help='data dir')
+    parser.add_argument('--workdir', type=str,
+                        help='working dir')
 
     args = parser.parse_args()
 
-    pipeline = StereoPipeline(args.config_file,args.easting,args.northing,args.width,args.height,args.hemi,args.zone)
+    pipeline = StereoPipeline(args.config_file,args.easting,args.northing,args.width,args.height,args.hemi,args.zone,args.workdir,args.datadir)
 
     pipeline.run()
