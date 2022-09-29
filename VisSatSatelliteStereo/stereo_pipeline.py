@@ -182,6 +182,19 @@ class StereoPipeline(object):
             per_step_time.append((False, 'aggregate_3d', 0.0))
             print('step aggregate_3d:\tskipped')
 
+        if self.config['steps_to_run']['clean_up']:
+            if(self.config['steps_to_run']['aggregate_3d'] or self.config['steps_to_run']['aggregate_2p5d']):
+                start_time = datetime.now()
+                self.run_clean_up()
+                duration = (datetime.now() - start_time).total_seconds() / 60.0  # minutes
+                per_step_time.append((True, 'clean_up', duration))
+                print('step clean_up:\tfinished in {} minutes'.format(duration))
+        else:
+            per_step_time.append((False, 'clean_up', 0.0))
+            print('step clean_up:\tskipped')
+ 
+
+
         with open(os.path.join(self.config['work_dir'], 'runtime.txt'), 'w') as fp:
             fp.write('step_name, status, duration (minutes)\n')
             total = 0.0
@@ -193,6 +206,19 @@ class StereoPipeline(object):
                 total += duration
             fp.write('\ntotal: {} minutes\n'.format(total))
             print('total:\t{} minutes'.format(total))
+
+    def clean_up(self):
+        # clean up mvs directories:
+        # images and photo/geo .bin files
+        # often equate to > 30 GB each
+        # image dir = os.path.join(self.config['work_dir'],'images') 
+        # mvs dir = os.path.join(self.config['work_dir'],'colmap/mvs/stereo/depth_maps/') 
+        image_dir =  os.path.join(self.config['work_dir'],'images/')
+        mvs_depth_dir = os.path.join(self.config['work_dir'],'colmap/mvs/stereo/depth_maps/')
+        cmd = "rm -r {}"
+        os.system(cmd.format(image_dir))
+        os.system(cmd.format(mvs_depth_dir))
+
 
     def write_aoi(self):
         # write aoi.json
@@ -485,7 +511,7 @@ class StereoPipeline(object):
         local_timer = Timer('3D aggregation module')
         local_timer.start()
 
-        aggregate_3d.run_fuse(work_dir)
+        aggregate_3d.run_fuse(work_dir,self.config['env'])
 
         # stop local timer
         local_timer.mark('3D aggregation done')
