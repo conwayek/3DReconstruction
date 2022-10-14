@@ -6,7 +6,7 @@ import numpy as np
 from geopy import distance
 import matplotlib.pyplot as plt
 import utm
-
+import os
 
 def main(direct,Nview=10,rangex=2000,rangey=2000):
     
@@ -29,7 +29,8 @@ def main(direct,Nview=10,rangex=2000,rangey=2000):
         order_id = file.split('-P1BS-')[1].split('.NTF')[0].split('_P001')[0]
 
         tar = tarfile.open(file.split('.NTF')[0]+'.tar')
-        tar.extractall(file.split('.NTF')[0])
+        if(os.path.exists(file.split('.NTF')[0])==False):
+            tar.extractall(file.split('.NTF')[0])
 
         subfolder = 'DVD_VOL_1'
         for x in os.listdir(file.split('.NTF')[0]+'/'+order_id):
@@ -119,7 +120,9 @@ def main(direct,Nview=10,rangex=2000,rangey=2000):
                     hemi = 'N'
                 else:
                     hemi = 'S'
-                print(i,j,easting,northing,hemi,zone)
+                if(i==4):
+                    print(i,j,easting,northing,hemi,zone)
+                    #print(i,j,lon_left,lat_upper,hemi,zone)
 
             
 
@@ -127,5 +130,5 @@ def main(direct,Nview=10,rangex=2000,rangey=2000):
                 
 if __name__ == '__main__':
     
-    direct = '/3DReconstruction/3DReconstruction/JacksonvilleWV3'
+    direct = '/3DReconstruction/3DReconstruction/OmahaWV3'
     main(direct,Nview=10,rangex=1000,rangey=1000)

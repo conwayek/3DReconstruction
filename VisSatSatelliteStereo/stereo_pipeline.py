@@ -29,7 +29,7 @@
 #  The U.S. Government is authorized to reproduce and distribute copies of this work for Governmental purposes.
 #  ===============================================================================================================
 
-
+import glob
 import os
 import json
 from clean_data import clean_data
@@ -45,6 +45,7 @@ from reparam_depth import reparam_depth
 from colmap_mvs_commands import run_photometric_mvs, run_consistency_check
 import aggregate_2p5d
 import aggregate_3d
+import pyproj
 import utm
 from debuggers.inspect_sfm import SparseInspector
 from datetime import datetime
@@ -57,13 +58,22 @@ class StereoPipeline(object):
             self.config = json.load(fp)
             
         # append json file
-        easting = np.float64(easting) 
-        northing = np.float64(northing) 
+        self.easting = np.float64(easting) 
+        self.northing = np.float64(northing) 
         width = np.float64(width)
         height = np.float64(height)
         zone = int(zone)
-        
-        self.config['bounding_box'] = {'ul_easting':easting, 'ul_northing':northing, 'width':width,'height':height,'zone_number':zone,'hemisphere':hemi}
+
+        if hemi == 'N':
+            south = False
+        else:
+            south = True
+
+        proj = pyproj.Proj(proj='utm', ellps='WGS84', zone=zone, south=south)
+        self.lon, self.lat = proj(self.easting, self.northing, inverse=True)
+
+
+        self.config['bounding_box'] = {'ul_easting':self.easting, 'ul_northing':self.northing, 'width':width,'height':height,'zone_number':zone,'hemisphere':hemi}
         
         self.config['work_dir'] = workdir
         self.config['dataset_dir'] = datadir
@@ -81,6 +91,7 @@ class StereoPipeline(object):
         self.write_aoi()
 
         per_step_time = []  # (whether to run, step name, time in minutes)
+        """ 
 
         if self.config['steps_to_run']['clean_data']:
             start_time = datetime.now()
@@ -192,7 +203,16 @@ class StereoPipeline(object):
         else:
             per_step_time.append((False, 'clean_up', 0.0))
             print('step clean_up:\tskipped')
- 
+        """ 
+        if self.config['steps_to_run']['rename_files']:
+            start_time = datetime.now()
+            self.rename_files()
+            duration = (datetime.now() - start_time).total_seconds() / 60.0  # minutes
+            per_step_time.append((True, 'rename_files', duration))
+            print('step rename_files:\tfinished in {} minutes'.format(duration))
+        else:
+            per_step_time.append((False, 'clean_up', 0.0))
+            print('step rename_files:\tskipped')
 
 
         with open(os.path.join(self.config['work_dir'], 'runtime.txt'), 'w') as fp:
@@ -207,18 +227,56 @@ class StereoPipeline(object):
             fp.write('\ntotal: {} minutes\n'.format(total))
             print('total:\t{} minutes'.format(total))
 
-    def clean_up(self):
+    def run_clean_up(self):
         # clean up mvs directories:
         # images and photo/geo .bin files
         # often equate to > 30 GB each
-        # image dir = os.path.join(self.config['work_dir'],'images') 
-        # mvs dir = os.path.join(self.config['work_dir'],'colmap/mvs/stereo/depth_maps/') 
         image_dir =  os.path.join(self.config['work_dir'],'images/')
+        mvs_normal_dir = os.path.join(self.config['work_dir'],'colmap/mvs/stereo/normal_maps/')
         mvs_depth_dir = os.path.join(self.config['work_dir'],'colmap/mvs/stereo/depth_maps/')
         cmd = "rm -r {}"
         os.system(cmd.format(image_dir))
         os.system(cmd.format(mvs_depth_dir))
+        os.system(cmd.format(mvs_normal_dir))
 
+    def rename_files(self):
+        """
+        Rename important files in {direct} to include the lon/lat of the top left corner of the tile
+        """
+        if self.config['steps_to_run']['colmap_mvs']:
+            file_dir = glob.glob(self.config['work_dir']+'/colmap/mvs/*.ply')
+            print(file_dir)
+            for file in file_dir:
+                if(str(self.lon)+'_'+str(self.lat) not in file):
+                    fnew = 'fused_'+str(self.lon)+'_'+str(self.lat)+'.ply'
+                    cmd = "mv {} {}" 
+                    os.system(cmd.format(file,os.path.join(file.split('fused')[0]+fnew)))
+            file_dir = os.path.join(self.config['work_dir'],'colmap/mvs/dsm/dsm_tif')
+            for file in os.listdir(file_dir):
+                if(str(self.lon)+'_'+str(self.lat) not in file):
+                    f = os.path.join(file_dir,file)
+                    fnew = f.split('.tif')[0]
+                    fnew = fnew+'_'+str(self.lon)+'_'+str(self.lat)+'.tif'
+                    cmd = "mv {} {}" 
+                    os.system(cmd.format(f,fnew))
+        if self.config['steps_to_run']['aggregate_3d']:
+            file_dir = os.path.join(self.config['work_dir'],'mvs_results/aggregate_3d/')
+            for file in os.listdir(file_dir):
+                if(str(self.lon)+'_'+str(self.lat) not in file):
+                    f = os.path.join(file_dir,file)
+                    fnew = file.split('aggregate_3d')[1]
+                    fnew = 'aggregate_3d_'+str(self.lon)+'_'+str(self.lat)+fnew
+                    cmd = "mv {} {}" 
+                    os.system(cmd.format(f,os.path.join(file_dir,fnew)))
+
+        if self.config['steps_to_run']['aggregate_2p5d']:
+            file_dir = os.path.join(self.config['work_dir'],'mvs_results/aggregate_2p5d/')
+            for file in os.listdir(file_dir):
+                if(str(self.lon)+'_'+str(self.lat) not in file):
+                    f = file.split('aggregate_2p5d')[1]
+                    fnew = 'aggregate_2p5d_'+str(self.lon)+'_'+str(self.lat)+f
+                    cmd = "mv {} {}" 
+                    os.system(cmd.format(os.path.join(file_dir,file),os.path.join(file_dir,fnew)))
 
     def write_aoi(self):
         # write aoi.json
