@@ -91,7 +91,6 @@ class StereoPipeline(object):
         self.write_aoi()
 
         per_step_time = []  # (whether to run, step name, time in minutes)
-        """ 
 
         if self.config['steps_to_run']['clean_data']:
             start_time = datetime.now()
@@ -203,7 +202,6 @@ class StereoPipeline(object):
         else:
             per_step_time.append((False, 'clean_up', 0.0))
             print('step clean_up:\tskipped')
-        """ 
         if self.config['steps_to_run']['rename_files']:
             start_time = datetime.now()
             self.rename_files()
